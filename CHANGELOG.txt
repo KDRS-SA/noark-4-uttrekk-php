@@ -1,0 +1,52 @@
+CHANGELOG.txt
+
+Noark 4 Uttrekk PHP
+
+### ver 0.1.3a 2015-09-04 Thomas Sødring, adjustments ###
+
+Added
+..\doc\noark4-uttrekk-php_parameters.txt
+..\doc\noark4-uttrekk-php_prerequisites.txt [ToDo: write information in this document]
+..\doc\noark4-systems\ [moved folders and files into subdirectories]
+
+Some minor adjustments in php-files:
+..\database\noarkDatabaseStruktur.php
+..\extraction\NoarkIHCreator.php
+..\ini\destination_db.ini\destination_db.ini
+..\ini\src_db.ini
+
+..\models\AdressekpDAO.php
+..\models\AvskrmDAO.php
+..\models\BokBeskDAO.php
+..\models\DokVersDAO.php
+..\models\ForsmateDAO.php
+..\models\Merknad.php
+..\models\MerknadDAO.php
+..\models\SakTypeDAO.php
+..\models\TghjemDAO.php
+..\models\TgkodeDAO.php
+
+..\utility\Logger.php
+
+### ver 0.1.2a 2015-01-29 Thomas Sødring, adjustments ###
+
+Some minor adjustments in php-files.
+
+Added php-files:
+extraction\JournalCreator.php
+extraction\SAKDOKCreator.php|
+
+### ver 0.1.1a 2015-01-28 Thomas Sødring, CHAR8 replace DATE ###
+
+Datatype CHAR (8) replaces datatype DATE in multiple occurences and folders of PHP-files.
+
+Added uttrekk-folders with dummy testfile for inclusion in git repository:
+uttrekksfiler\
+..\DATA
+..\DOKUMENT
+..\logg
+..\RAPPORT
+
+### ver 0.1.0a 2015-01-27 Thomas Sødring ###
+
+First commmit.
